@@ -1,0 +1,12 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(225, 200, 225);
+}
+
+#img-legend {
+    text-align:center;
+}
+
+div > img {
+    border-radius: : 30px;
+}
