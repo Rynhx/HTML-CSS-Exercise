@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 
 <head>
     <title>Tabela</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/tabela.css" >
+    <link rel="stylesheet" href="css/tabela.css">
+    <style>
+      
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #fa0404;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(2n) {
+        background-color: #a14e3f;
+      }
+
+      tr:hover {
+        background-color: white
+      }
+      </style>
+ 
 </head>
 
 <body>
-    <table border="2">
+
         <h2>Estados do Brasil</h2>
         <!--1ª Linha: Nome das colunas-->
+        <table>
         <tr>
+        
             <!--Cabeçalhos | <th>-->
             <th>Estado</th>
             <th>Capital</th>
@@ -29,10 +51,10 @@
             <td>Goiânia</td>
             <td>GO</td>
         </tr>
-        </style>
+      </table>
     </table>
 
-    <table border="2">
+    <table>
         <h2>Países da Copa</h2>
         <!--1ª Linha: Nome das colunas-->
         <tr>
@@ -61,9 +83,9 @@
             <td>Dacar</td>
             <td>África</td>
         </tr>
-        </style>
     </table>
-    <table border="2">
+    
+    <table>
     <h3>Empresas</h3>
     
     <table id="customers">

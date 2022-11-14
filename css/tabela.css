@@ -1,11 +1,15 @@
-#costumers, table,th,td {
-    border-collapse: 1px solid rgb(39, 160, 55)
-}
-table th {
-    background-color: black;
-    color: white;
-}
-
-#costumers {
-    border-collapse: 2px solid rgb(39, 160, 55)
-}
+#costumers, table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
